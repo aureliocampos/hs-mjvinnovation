@@ -1,17 +1,5 @@
 html {
-  font-size: 24px;
-}
-
-@media (max-width: 767px) {
-  html {
-    font-size: 18px;
-  }
-}
-
-@media (max-width: 480px) {
-  html {
-    font-size: 16px;
-  }
+  font-size: 16px;
 }
 
 body {
@@ -153,3 +141,5 @@ sub {
 .disable-focus-styles :focus {
   outline: none;
 }
+
+
