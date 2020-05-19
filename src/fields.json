@@ -563,7 +563,7 @@
         "display": "slider",
         "max": 500,
         "min": 0,
-        "default": 80
+        "default": 2.5
       },
       {
         "label": "Maximum content width",

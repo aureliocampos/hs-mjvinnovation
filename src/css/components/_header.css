@@ -467,3 +467,8 @@
     display: block;
   }
 }
+
+/* Alterações MJV */
+.header--no-navigation .header__logo {
+  margin: 1em auto;
+}
