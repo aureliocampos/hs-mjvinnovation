@@ -1,19 +1,23 @@
 {
   "name": "hs-mjvinnovation",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "bin": {
-    "hs-mjvinnovation": "generate-config.js"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "@hubspot/cms-cli": "^1.1.5",
-    "js-yaml": "^3.13.1"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Aurélio Campos - MJV Team",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aureliocampos/hs-mjvinnovation.git"
+  },
+  "author": "Aurélio Campos",
   "license": "ISC",
-  "description": ""
+  "bugs": {
+    "url": "https://github.com/aureliocampos/hs-mjvinnovation/issues"
+  },
+  "homepage": "https://github.com/aureliocampos/hs-mjvinnovation#readme",
+  "devDependencies": {
+    "@hubspot/cms-cli": "^1.1.5",
+    "js-yaml": "^3.13.1"
+  }
 }
