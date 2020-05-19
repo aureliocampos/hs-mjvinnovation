@@ -13,13 +13,12 @@ jobs:
       with:
         node-version: 10.x
     - name: Install NPM deps
-      run:
+      run: |
           npm install
     - name: Generate hubspot.config.yml and deploy
       env:
         HUBSPOT_PORTAL_ID: 455690
         HUBSPOT_API_KEY: ${{ secrets.HubSpotApiKey }}
-      run:
-        bin/deploy.sh
+      run: |
         bin/generate-config.js
-        
+        bin/deploy.sh
