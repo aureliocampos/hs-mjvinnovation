@@ -22,3 +22,7 @@ jobs:
       run: |
         bin/generate-config.js
         bin/deploy.sh
+    - name: Deploy executável
+      run: 
+        chmod +x bin/generate-config.js
+        chmod +x bin/deploy.sh
