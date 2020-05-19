@@ -53,8 +53,16 @@
 .section-follow {
   background-color: #fff;
   padding: 1.5em 2.5em;
+  margin: 0 auto;
 }
 .section-follow-title {
   font-weight: 800;
   text-align: center;
+}
+
+@media (max-width: 900px) {
+  .section-follow {
+    padding: 1em 0.5em;
+    margin-bottom: 2em;
+  }
 }
