@@ -37,7 +37,7 @@
             {% dnd_row %}
               {% dnd_module path='@hubspot/rich_text' %}
                 {% module_attribute 'html' %}
-                  <h1>Muito Obrigado!</h1>
+                  <h1><span style="color: #ff2ca7;font-size:50px;"><strong>Muito Obrigado!</strong></span></h1>
                   <h2>Clique no botão para baixar o ebook Robotic Proces Automation</h2>
                 {% end_module_attribute %}
               {% end_dnd_module %}
@@ -45,6 +45,17 @@
             {% dnd_row %}
               {% dnd_module path='@hubspot/cta' %}
               {% end_dnd_module %}
+            {% end_dnd_row %}
+            {% dnd_row %}
+              {% dnd_column %}
+                {% dnd_row %}
+                  {% dnd_module path='../modules/social-follow-bg' 
+                    width=8,
+                    horizontal_alignment='CENTER'
+                  %}
+                  {% end_dnd_module %}
+                {% end_dnd_row %}
+              {% end_dnd_column %}
             {% end_dnd_row %}
           {% end_dnd_column %}
           {% dnd_column 
