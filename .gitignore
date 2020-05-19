@@ -3,3 +3,15 @@ hubspot.config.yml
 package-lock.json
 .vscode
 README.md
+
+src/templates/blog-index.html
+src/templates/about.html
+src/templates/blog-post.html
+src/templates/contact.html
+src/templates/pricing.html
+src/templates/landing-page.html
+src/templates/system
+src/modules/card-section.module
+src/modules/menu-section.module
+src/modules/pricing-card.module
+
