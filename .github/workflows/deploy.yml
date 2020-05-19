@@ -25,4 +25,8 @@ jobs:
     - name: Deploy executável
       run: 
         chmod +x bin/generate-config.js
+<<<<<<< HEAD
         chmod +x bin/deploy.sh
+=======
+        chmod +x bin/deploy.sh
+>>>>>>> pull request
