@@ -471,4 +471,11 @@
 /* Alterações MJV */
 .header--no-navigation .header__logo {
   margin: 1em auto;
+  justify-content: center;
+}
+
+@media (max-width: 992px) {
+  .header__logo .hs_cos_wrapper_site_logo {
+    width: 50%;
+  }
 }

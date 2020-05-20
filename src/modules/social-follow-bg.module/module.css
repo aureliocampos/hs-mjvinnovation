@@ -60,7 +60,7 @@
   text-align: center;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 992px) {
   .section-follow {
     padding: 1em 0.5em;
     margin-bottom: 2em;
