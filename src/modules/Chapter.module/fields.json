@@ -9,7 +9,7 @@
   "allow_new_line" : false,
   "show_emoji_picker" : false,
   "type" : "text",
-  "default" : ""
+  "default" : "Título da seção - Lista de Conteúdos"
 }, {
   "id" : "1787b1b8-4520-db23-c5aa-90a28b5536d9",
   "name" : "block_chapter",
@@ -17,7 +17,7 @@
   "required" : false,
   "locked" : false,
   "occurrence" : {
-    "min" : 4,
+    "min" : 3,
     "max" : null,
     "sorting_label_field" : "88744cb7-bacc-e406-c6d1-942b9fcf5829",
     "default" : null
@@ -38,7 +38,7 @@
       "allow_new_line" : false,
       "show_emoji_picker" : false,
       "type" : "text",
-      "default" : null
+      "default" : "01"
     }, {
       "id" : "b761b263-5649-a5d3-6982-b45faf1b9af7",
       "name" : "background_number",
@@ -47,7 +47,7 @@
       "locked" : false,
       "type" : "color",
       "default" : {
-        "color" : "#ffffff",
+        "color" : "#ff2ca7",
         "opacity" : 100
       }
     }, {
@@ -88,7 +88,7 @@
       "locked" : false,
       "type" : "color",
       "default" : {
-        "color" : "#ffffff",
+        "color" : "#f1f1f2",
         "opacity" : 100
       }
     }, {
@@ -98,13 +98,13 @@
       "required" : false,
       "locked" : false,
       "type" : "richtext",
-      "default" : null
+      "default" :"<h3>Excepteur sint occaecat cupidatat</h3><p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
     } ],
     "tab" : "CONTENT",
     "type" : "group",
     "default" : {
       "background_description" : {
-        "color" : "#ffffff",
+        "color" : "#2d2d2d",
         "opacity" : 100
       }
     }
@@ -114,7 +114,7 @@
   "default" : [ {
     "group_number_chapter" : {
       "background_number" : {
-        "color" : "#ffffff",
+        "color" : "#ff2ca7",
         "opacity" : 100
       },
       "font_color" : {
@@ -124,18 +124,14 @@
     },
     "group_decription" : {
       "background_description" : {
-        "color" : "#ffffff",
-        "opacity" : 100
-      },
-      "font_color" : {
-        "color" : "#ffffff",
+        "color" : "#f1f1f2",
         "opacity" : 100
       }
     }
   }, {
     "group_number_chapter" : {
       "background_number" : {
-        "color" : "#ffffff",
+        "color" : "#ff2ca7",
         "opacity" : 100
       },
       "font_color" : {
@@ -145,14 +141,14 @@
     },
     "group_decription" : {
       "background_description" : {
-        "color" : "#ffffff",
+        "color" : "#f1f1f2",
         "opacity" : 100
       }
     }
   }, {
     "group_number_chapter" : {
       "background_number" : {
-        "color" : "#ffffff",
+        "color" : "#ff2ca7",
         "opacity" : 100
       },
       "font_color" : {
@@ -162,26 +158,9 @@
     },
     "group_decription" : {
       "background_description" : {
-        "color" : "#ffffff",
+        "color" : "#f1f1f2",
         "opacity" : 100
       }
     }
-  }, {
-    "group_number_chapter" : {
-      "background_number" : {
-        "color" : "#ffffff",
-        "opacity" : 100
-      },
-      "font_color" : {
-        "color" : "#ffffff",
-        "opacity" : 100
-      }
-    },
-    "group_decription" : {
-      "background_description" : {
-        "color" : "#ffffff",
-        "opacity" : 100
-      }
-    }
-  } ]
+  }]
 } ]
