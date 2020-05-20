@@ -13,3 +13,9 @@
 {% include './templates/_system.css' %}
 {% include './templates/_webinar.css' %}
 {% include './templates/_ebook.css' %}
+
+.body-container--transmission #hs-link-dnd_area-module-2_hs_logo_widget img{
+  width: 70px !important;
+  height: auto;
+  filter: brightness(100);
+}

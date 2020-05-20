@@ -165,7 +165,7 @@
           }
         },
         "default": {
-          "size": 2.3,
+          "size": 3,
           "size_unit": "em",
           "styles": {
             "text-decoration" : "none"

@@ -6,10 +6,11 @@
 
 
 {% extends './layouts/base.html' %}
-{{ require_css(get_asset_url('../css/templates/ebook.css')) }}
 
+{% block header %}
+  {% global_partial path='../partials/header-no-navigation.html' %}
+{% endblock header %}
 {% block body %}
-
 <main class="body-container-wrapper">
   {% dnd_area 'dnd_area' class='body-container body-container--landing-page-ebook', label='Main section' %}
       

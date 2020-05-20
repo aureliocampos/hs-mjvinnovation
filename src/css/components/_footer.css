@@ -19,6 +19,12 @@
   color: #707070;
   transition: 400ms;
 }
+
+.footer.footer-white {
+  background-color: #fff !important;
+  color: #2d2d2d !important;
+}
+
 @media (min-width: 992px){
   .footer.footer-contact .footer__container{
     display: flex;
@@ -37,5 +43,17 @@
     color: #ffffff;
     text-decoration: none;
   }
+
+  .footer.footer-white #hs_cos_wrapper_footer_copyright_text_ a:hover {
+    color: #2d2d2d;
+    text-decoration: none;
+  }
 }
 
+.footer.footer-white h1, .footer.footer-white h2, .footer.footer-white h3, .footer.footer-white h4, .footer.footer-white h5, .footer.footer-white h6 .footer.footer-white p, .footer.footer-white a, .footer.footer-white div, .footer.footer-white span {
+  color: #2d2d2d !important;
+}
+
+footer.footer-white .social-links__icon svg {
+  fill: #2d2d2d !important;
+}
