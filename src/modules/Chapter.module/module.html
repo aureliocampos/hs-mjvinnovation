@@ -1,0 +1,19 @@
+<section class="section-chapters">
+	<h2 class="title-section">{{ module.title_section }}</h2>
+	
+	<ul class="section-chapters-items">
+		
+		{% for item in module.block_chapter %}
+		<li class="chapters-item">
+		  <div class="chapters-number" 
+					 style="background-color:{{ item.group_number_chapter.background_number.color }};opacity: {{ item.group_number_chapter.background_number.opacity }};color:{{ item.group_number_chapter.font_color.color }};">
+				{{ item.group_number_chapter.number_chapter }}
+			</div>
+			<div class="chapters-description" style="background-color:{{ item.group_decription.background_description.color }};opacity:{{ item.group_decription.background_description.opacity }};">
+				{% inline_rich_text field="group_decription.description" value="{{ item.group_decription.description }}" %}
+			</div>
+		</li>
+		{% endfor %}
+		
+	</ul>
+</section>
