@@ -1,0 +1,187 @@
+[ {
+  "id" : "4b628317-7570-bc25-935f-7fc003cb8315",
+  "name" : "title_section",
+  "label" : "Título da seção",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "placeholder" : "Escreva um título para a seção",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : ""
+}, {
+  "id" : "1787b1b8-4520-db23-c5aa-90a28b5536d9",
+  "name" : "block_chapter",
+  "label" : "Bloco Capítulo",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 4,
+    "max" : null,
+    "sorting_label_field" : "88744cb7-bacc-e406-c6d1-942b9fcf5829",
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "88744cb7-bacc-e406-c6d1-942b9fcf5829",
+    "name" : "group_number_chapter",
+    "label" : "Group Number Chapter",
+    "required" : false,
+    "locked" : false,
+    "children" : [ {
+      "id" : "c04954c7-deaa-5478-1ad1-cff608a2dd64",
+      "name" : "number_chapter",
+      "label" : "Número ",
+      "required" : false,
+      "locked" : false,
+      "validation_regex" : "",
+      "allow_new_line" : false,
+      "show_emoji_picker" : false,
+      "type" : "text",
+      "default" : null
+    }, {
+      "id" : "b761b263-5649-a5d3-6982-b45faf1b9af7",
+      "name" : "background_number",
+      "label" : "Background Number",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "default" : {
+        "color" : "#ffffff",
+        "opacity" : 100
+      }
+    }, {
+      "id" : "ce7a16f0-d1c8-c261-480e-50ace4f20041",
+      "name" : "font_color",
+      "label" : " Font Color",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "default" : {
+        "color" : "#ffffff",
+        "opacity" : 100
+      }
+    } ],
+    "tab" : "CONTENT",
+    "type" : "group",
+    "default" : {
+      "background_number" : {
+        "color" : "#ffffff",
+        "opacity" : 100
+      },
+      "font_color" : {
+        "color" : "#ffffff",
+        "opacity" : 100
+      }
+    }
+  }, {
+    "id" : "0534b342-b4b7-1c9a-e646-9cd5218d260b",
+    "name" : "group_decription",
+    "label" : "Group Decription",
+    "required" : false,
+    "locked" : false,
+    "children" : [ {
+      "id" : "c2d85d9c-82c1-5645-d83e-ea8079396bb8",
+      "name" : "background_description",
+      "label" : "Background Description",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "default" : {
+        "color" : "#ffffff",
+        "opacity" : 100
+      }
+    }, {
+      "id" : "b018474a-a85f-4d04-f97a-6b0799b34c51",
+      "name" : "description",
+      "label" : "Description",
+      "required" : false,
+      "locked" : false,
+      "type" : "richtext",
+      "default" : null
+    } ],
+    "tab" : "CONTENT",
+    "type" : "group",
+    "default" : {
+      "background_description" : {
+        "color" : "#ffffff",
+        "opacity" : 100
+      }
+    }
+  } ],
+  "tab" : "CONTENT",
+  "type" : "group",
+  "default" : [ {
+    "group_number_chapter" : {
+      "background_number" : {
+        "color" : "#ffffff",
+        "opacity" : 100
+      },
+      "font_color" : {
+        "color" : "#ffffff",
+        "opacity" : 100
+      }
+    },
+    "group_decription" : {
+      "background_description" : {
+        "color" : "#ffffff",
+        "opacity" : 100
+      },
+      "font_color" : {
+        "color" : "#ffffff",
+        "opacity" : 100
+      }
+    }
+  }, {
+    "group_number_chapter" : {
+      "background_number" : {
+        "color" : "#ffffff",
+        "opacity" : 100
+      },
+      "font_color" : {
+        "color" : "#ffffff",
+        "opacity" : 100
+      }
+    },
+    "group_decription" : {
+      "background_description" : {
+        "color" : "#ffffff",
+        "opacity" : 100
+      }
+    }
+  }, {
+    "group_number_chapter" : {
+      "background_number" : {
+        "color" : "#ffffff",
+        "opacity" : 100
+      },
+      "font_color" : {
+        "color" : "#ffffff",
+        "opacity" : 100
+      }
+    },
+    "group_decription" : {
+      "background_description" : {
+        "color" : "#ffffff",
+        "opacity" : 100
+      }
+    }
+  }, {
+    "group_number_chapter" : {
+      "background_number" : {
+        "color" : "#ffffff",
+        "opacity" : 100
+      },
+      "font_color" : {
+        "color" : "#ffffff",
+        "opacity" : 100
+      }
+    },
+    "group_decription" : {
+      "background_description" : {
+        "color" : "#ffffff",
+        "opacity" : 100
+      }
+    }
+  } ]
+} ]
