@@ -7,10 +7,8 @@
 {% extends './layouts/base.html' %}
 
 {% block body %}
-
 <main class="body-container-wrapper">
   {% dnd_area 'dnd_area' class='body-container body-container--landing-page-ebook', label='Main section' %}
-      
     {# INICIO - Banner #}
     {% dnd_section 
       max_width=1400,
@@ -38,14 +36,44 @@
         {% dnd_row 
           vertical_alignment='TOP'
           %}
-          {% dnd_module path='@hubspot/linked_image',
-          img={
-            'alt': 'Stock placeholder image with grayscale geometrical mountain landscape',
-            'size_type': 'auto',
-            'src': get_asset_url('../images/grayscale-mountain.png')
-          }
-          %}
-          {% end_dnd_module %}
+          {% dnd_column 
+            offset=0,
+            width=2,
+            padding={
+              'top': 40,
+              'bottom': 0,
+              'left': 0,
+              'right': 0
+            }
+            %}
+            {% dnd_row %}
+              <div>
+                {% dnd_module path='@hubspot/logo' %}
+                {% end_dnd_module %}
+              </div>
+            {% end_dnd_row %}
+          {% end_dnd_column %}
+          {% dnd_column 
+            offset=2,
+            width=10,
+            padding={
+              'top': 0,
+              'bottom': 0,
+              'left': 0,
+              'right': 0
+            }
+            %}
+            {% dnd_row %}
+              {% dnd_module path='@hubspot/linked_image',
+              img={
+                'alt': 'Stock placeholder image with grayscale geometrical mountain landscape',
+                'size_type': 'auto',
+                'src': get_asset_url('../images/grayscale-mountain.png')
+              }
+              %}
+              {% end_dnd_module %}
+            {% end_dnd_row %}
+          {% end_dnd_column %}
         {% end_dnd_row %}
         {% dnd_row 
           padding={
@@ -113,7 +141,7 @@
           horizontal_alignment="CENTER"
           img={
             'alt': 'Stock placeholder image with grayscale geometrical mountain landscape',
-            'size_type': '50',
+            'size_type': 'auto',
             'src': get_asset_url('../images/grayscale-mountain.png')
           }
           %}
