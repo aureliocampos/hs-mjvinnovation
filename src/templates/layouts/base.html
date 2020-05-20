@@ -1,16 +1,15 @@
 <!doctype html>
-<html lang="{{ html_lang }}" {{ html_lang_dir }}>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="{{ html_lang }}" {{ html_lang_dir }}> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="{{ html_lang }}" {{ html_lang_dir }}>        <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="{{ html_lang }}" {{ html_lang_dir }}>               <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="{{ html_lang }}" {{ html_lang_dir }}> <!--<![endif]-->
   <head>
     <meta charset="utf-8">
     <title>{{ page_meta.html_title }}</title>
     {% if site_settings.favicon_src %}<link rel="shortcut icon" href="{{ site_settings.favicon_src }}" />{% endif %}
     <meta name="description" content="{{ page_meta.meta_description }}">
     {{ require_css(get_asset_url('../../css/main.css')) }}
-    {# Where possible, improve page performance and speed by combining external http requests to reduce your
-      overall number of calls -- here, you can use a single call to the gFonts api to get all the fonts you need
-      https://developers.google.com/fonts/docs/getting_started
-    #}
-    {{ require_css("https://fonts.googleapis.com/css?family=Merriweather:400,700|Lato:400,700&display=swap") }}
+    
     {# Include theme overrides #}
     {{ require_css(get_asset_url('../../css/theme-overrides.css')) }}
     {{ require_js(get_asset_url('../../js/main.js')) }}

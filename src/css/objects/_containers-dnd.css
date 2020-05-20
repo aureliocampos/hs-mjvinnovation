@@ -10,10 +10,11 @@
   }
 }
 
-.dnd-section {
-  padding: 5em 1em;
+@media (min-width: 992px) {
+  .dnd-section {
+    padding: 5em 1em !important;
+  }
 }
-
 .dnd-section > .row-fluid {
   margin: 0 auto;
   max-width: 1200px;
