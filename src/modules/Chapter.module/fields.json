@@ -10,7 +10,6 @@
   "show_emoji_picker" : false,
   "type" : "text",
   "default" : "Título da seção - Lista de Conteúdos"
-
 }, {
   "id" : "1787b1b8-4520-db23-c5aa-90a28b5536d9",
   "name" : "block_chapter",
