@@ -15,10 +15,12 @@ jobs:
     - name: Install NPM deps
       run: |
           npm install
-    - name: Deploy BR
+    - name: Deploy INT
       env:
-        HUBSPOT_PORTAL_ID: 455690
-        HUBSPOT_API_KEY: ${{ secrets.HubSpotApiKey }};
+        HUBSPOT_PORTAL_ID: 2897528
+        HUBSPOT_API_KEY: ${{ secrets.HubSpotApiKeyInter }};
       run: |
         bin/generate-config.js
         bin/deploy.sh
+
+   
