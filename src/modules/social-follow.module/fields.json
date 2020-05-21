@@ -82,7 +82,7 @@
           "open_in_new_tab": true,
           "url": {
             "content_id": null,
-            "href": "https://www.facebook.com",
+            "href": "https://www.facebook.com/MJVTecInov/",
             "type": "EXTERNAL"
           }
         },
@@ -97,7 +97,7 @@
           "open_in_new_tab": true,
           "url": {
             "content_id": null,
-            "href": "https://www.linkedin.com",
+            "href": "https://www.linkedin.com/company/mjv-tech-and-innovation/",
             "type": "EXTERNAL"
           }
         },
@@ -112,7 +112,7 @@
           "open_in_new_tab": true,
           "url": {
             "content_id": null,
-            "href": "https://www.twitter.com",
+            "href": "https://twitter.com/MJVInnovationBR",
             "type": "EXTERNAL"
           }
         },
@@ -127,12 +127,27 @@
           "open_in_new_tab": true,
           "url": {
             "content_id": null,
-            "href": "https://www.instagram.com",
+            "href": "https://www.instagram.com/mjvinnovationbr/",
             "type": "EXTERNAL"
           }
         },
         "accessibility": {
           "title": "Follow us on Instagram"
+        }
+      },
+      {
+        "social_account": "youtube",
+        "social_link": {
+          "no_follow": false,
+          "open_in_new_tab": true,
+          "url": {
+            "content_id": null,
+            "href": "https://www.youtube.com/user/MJVInovacao",
+            "type": "EXTERNAL"
+          }
+        },
+        "accessibility": {
+          "title": "Follow us on Youtube"
         }
       }
     ]
