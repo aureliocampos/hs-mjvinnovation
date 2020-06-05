@@ -1,0 +1,209 @@
+[ {
+  "id" : "cb76512f-1cae-5ebc-15bc-50ad076e569a",
+  "name" : "background_color",
+  "label" : "Background Color",
+  "required" : false,
+  "locked" : false,
+  "type" : "color",
+  "default" : {
+    "color" : "#2d2d2d",
+    "opacity" : 100
+  }
+}, {
+  "id" : "e3b5c62a-86a7-57ed-19d0-b6fc740227c7",
+  "name" : "font_color",
+  "label" : "Font Color",
+  "required" : false,
+  "locked" : false,
+  "type" : "color",
+  "default" : {
+    "color" : "#707070",
+    "opacity" : 100
+  }
+}, {
+  "id" : "48342000-91df-42a5-ad8f-6960de9144b2",
+  "name" : "hover_font_color",
+  "label" : "Hover Font Color",
+  "required" : false,
+  "locked" : false,
+  "type" : "color",
+  "default" : {
+    "color" : "#ffffff",
+    "opacity" : 100
+  }
+}, {
+  "id" : "49a3907a-9ade-a131-55b0-8f68a9eb2397",
+  "name" : "footer_type",
+  "label" : "Tipo do Footer",
+  "required" : false,
+  "locked" : false,
+  "display" : "select",
+  "choices" : [ [ "footer_full", "Full" ], [ "footer_simple", "Simple" ], [ "footer_basic", "Basic" ] ],
+  "type" : "choice",
+  "default" : "footer_full"
+}, {
+  "id" : "a78a2783-e29b-4c24-08a3-9161dab58cc6",
+  "name" : "footer_full",
+  "label" : "Footer Full",
+  "required" : false,
+  "locked" : false,
+  "visibility" : {
+    "controlling_field" : "49a3907a-9ade-a131-55b0-8f68a9eb2397",
+    "controlling_value_regex" : "footer_full",
+    "operator" : "EQUAL",
+    "access" : null,
+    "hidden_subfields" : null
+  },
+  "children" : [ {
+    "id" : "4a967d7c-39b4-ae0d-e888-029ca0b13afc",
+    "name" : "color_logo_mjv",
+    "label" : "Cor Logo MJV",
+    "help_text" : "Para Branco Selecione",
+    "required" : false,
+    "locked" : false,
+    "type" : "boolean",
+    "default" : false
+  }, {
+    "id" : "73e03a1b-30fb-4110-5705-0425cfd436e4",
+    "name" : "logo_field",
+    "label" : "Logotipo",
+    "required" : false,
+    "locked" : false,
+    "type" : "logo",
+    "default" : {
+      "override_inherited_src" : false,
+      "src" : null,
+      "alt" : null
+    }
+  }, {
+    "id" : "a0cb720a-d41d-b0c6-f5ff-5aadcdff9a0e",
+    "name" : "copyright_text",
+    "label" : " Copyright Text",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<div style=\"text-align: right;\"><a href=\"https://www.mjvinnovation.com/pt-br/\" style=\"font-size: 20px;\">www.mjvinnovation.com</a></div>\n<p style=\"text-align: right;\">© MJV Technology and Innovation {{ year }}</p>\n<p style=\"text-align: right;\"><a href=\"#\">Terms of service</a> | <a href=\"#\" style=\"font-size: 14px;\">Privacy</a></p>"
+  } ],
+  "tab" : "CONTENT",
+  "type" : "group",
+  "default" : {
+    "color_logo_mjv" : false,
+    "logo_field" : {
+      "override_inherited_src" : false,
+      "src" : null,
+      "alt" : null
+    },
+    "copyright_text" : "<div style=\"text-align: right;\"><a href=\"https://www.mjvinnovation.com/pt-br/\" style=\"font-size: 20px;\">www.mjvinnovation.com</a></div>\n<p style=\"text-align: right;\">© MJV Technology and Innovation {{ year }}</p>\n<p style=\"text-align: right;\"><a href=\"#\">Terms of service</a> | <a href=\"#\" style=\"font-size: 14px;\">Privacy</a></p>"
+  }
+}, {
+  "id" : "c3f16100-1cef-00f4-5bf4-8da57332bb7f",
+  "name" : "footer_simple",
+  "label" : "Footer Simple",
+  "required" : false,
+  "locked" : false,
+  "visibility" : {
+    "controlling_field" : "49a3907a-9ade-a131-55b0-8f68a9eb2397",
+    "controlling_value_regex" : "footer_simple",
+    "operator" : "EQUAL",
+    "access" : null,
+    "hidden_subfields" : null
+  },
+  "children" : [ {
+    "id" : "d5800a38-d613-ddd4-6f93-defb4b30f2a4",
+    "name" : "cor_logo_mjv",
+    "label" : "Cor Logo MJV",
+    "help_text" : "Para Branco Selecion",
+    "required" : false,
+    "locked" : false,
+    "type" : "boolean",
+    "default" : false
+  }, {
+    "id" : "e49a5e96-661d-ab33-e0f3-e11eafac036e",
+    "name" : "logotipo",
+    "label" : "Logotipo",
+    "required" : false,
+    "locked" : false,
+    "type" : "logo",
+    "default" : {
+      "override_inherited_src" : false,
+      "src" : null,
+      "alt" : null
+    }
+  }, {
+    "id" : "bf4a601f-d9ba-c180-80c7-11416dbca402",
+    "name" : "copyright_text",
+    "label" : "Copyright Text",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<div style=\"text-align: right;\"><a href=\"https://www.mjvinnovation.com/pt-br/\" style=\"font-size: 20px;\">www.mjvinnovation.com</a></div>\n<p style=\"font-size: 16px; text-align: right;\">© MJV Technology and Innovation {{ year }}</p>\n<p style=\"text-align: right;\"><a href=\"#\" style=\"font-size: 14px;\">Terms of service</a> | <a href=\"#\" style=\"font-size: 14px;\">Privacy</a></p>"
+  } ],
+  "tab" : "CONTENT",
+  "type" : "group",
+  "default" : {
+    "cor_logo_mjv" : false,
+    "logotipo" : {
+      "override_inherited_src" : false,
+      "src" : null,
+      "alt" : null
+    },
+    "copyright_text" : "<div style=\"text-align: right;\"><a href=\"https://www.mjvinnovation.com/pt-br/\" style=\"font-size: 20px;\">www.mjvinnovation.com</a></div>\n<p style=\"font-size: 16px; text-align: right;\">© MJV Technology and Innovation {{ year }}</p>\n<p style=\"text-align: right;\"><a href=\"#\" style=\"font-size: 14px;\">Terms of service</a> | <a href=\"#\" style=\"font-size: 14px;\">Privacy</a></p>"
+  }
+}, {
+  "id" : "7013a69f-764b-0625-785e-b246fa6bdeec",
+  "name" : "footer_basic",
+  "label" : "Footer Basic",
+  "required" : false,
+  "locked" : false,
+  "visibility" : {
+    "controlling_field" : "49a3907a-9ade-a131-55b0-8f68a9eb2397",
+    "controlling_value_regex" : "footer_basic",
+    "operator" : "EQUAL",
+    "access" : null,
+    "hidden_subfields" : null
+  },
+  "children" : [ {
+    "id" : "c493ef15-b003-3df0-68f2-f5cd78a1c87e",
+    "name" : "cor_logo_mjv",
+    "label" : "Cor Logo MJV",
+    "help_text" : "Para Branco Selecion",
+    "required" : false,
+    "locked" : false,
+    "type" : "boolean",
+    "default" : false
+  }, {
+    "id" : "38aee31e-3468-2536-d25f-aaae9b4402b7",
+    "name" : "logotipo",
+    "label" : "Logotipo",
+    "required" : false,
+    "locked" : false,
+    "type" : "logo",
+    "default" : {
+      "override_inherited_src" : false,
+      "src" : null,
+      "alt" : null
+    }
+  }, {
+    "id" : "8fac2f53-78d5-a01c-3f3f-0023070e4585",
+    "name" : "copyright_text",
+    "label" : "Copyright Text",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "© MJV Technology & Innovation<time></time> - All Rights Reserved"
+  } ],
+  "tab" : "CONTENT",
+  "type" : "group",
+  "default" : {
+    "cor_logo_mjv" : false,
+    "logotipo" : {
+      "override_inherited_src" : false,
+      "src" : null,
+      "alt" : null
+    },
+    "copyright_text" : "© MJV Technology & Innovation<time></time> - All Rights Reserved"
+  }
+} ]
