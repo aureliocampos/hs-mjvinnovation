@@ -1,0 +1,95 @@
+{% set type = module.footer_type %}
+<footer class="footer">
+	{% if type == "footer_basic" %}
+		<div class="footer__container container-flex-wrapper">
+			<div class="column-flex-wrapper">
+				{% logo
+				    override_inherited_src="{{ module.footer_basic.logo_field.override_inherited_src }}"
+						src="{{ module.footer_basic.logo_field.src }}"
+						alt="{{ module.footer_basic.logo_field.alt }}"
+						width="{{ module.footer_basic.logo_field.width }}"
+						height="{{ module.footer_basic.logo_field.height }}"
+						suppress_company_name="{{ module.footer_basic.logo_field.suppress_company_name }}"
+					%}
+			</div>
+			<div class="column-flex-wrapper">	
+        <p>{% inline_text field="footer_basic.copyright_text" value="{{ module.footer_basic.copyright_text }}" %}</p>
+			</div>
+		</div>
+	{% elif type == "footer_simple" %}
+		<div class="footer__container container-flex-wrapper">
+			<div class="column-flex-wrapper">
+				{% logo
+					override_inherited_src="{{ module.footer_simple.logotipo.override_inherited_src }}"
+					src="{{ module.footer_simple.logotipo.src }}"
+					alt="{{ module.footer_simple.logotipo.alt }}"
+					width="{{ module.footer_simple.logotipo.width }}"
+					height="{{ module.footer_simple.logotipo.height }}"
+					suppress_company_name="{{ module.footer_simple.logotipo.suppress_company_name }}"
+				%}
+			</div>
+			<div class="column-flex-wrapper">
+				{% inline_rich_text field="footer_simple.copyright_text" value="{{ module.footer_simple.copyright_text }}" %}
+			</div>
+		</div>
+	{% else %}
+	  <div class="footer__container container-flex-wrapper">
+			<div class="column-flex-wrapper">
+				<div class="footer-social">
+					
+				</div>
+				<div class="footer-logo">
+					{% logo
+							override_inherited_src="{{ module.footer_full.logo_field.override_inherited_src }}"
+							src="{{ module.footer_full.logo_field.src }}"
+							alt="{{ module.footer_full.logo_field.alt }}"
+							width="{{ module.footer_full.logo_field.width }}"
+							height="{{ module.footer_full.logo_field.height }}"
+							suppress_company_name="{{ module.footer_full.logo_field.suppress_company_name }}"
+						%}
+				</div>
+			</div>
+			<div class="column-flex-wrapper">
+				{% inline_rich_text field="footer_full.copyright_text" value="{{ module.footer_full.copyright_text }}" %}
+			</div>
+		</div>
+	{% endif %}
+	
+</footer>
+
+<style>
+	{% set color = module.font_color.color %}
+	{% set background_color = module.background_color.color %}
+	{% set hover = module.hover_font_color.color %}
+	.container-flex-wrapper {
+		background-color: {{ background_color }}
+	}
+	div[data-hs-cos-field*="copyright_text"]{
+		color: {{ color }};
+	}
+	div[data-hs-cos-field*="copyright_text"] a {
+		color: {{ color }};
+		text-decoration: none;
+		transition: 400ms;
+	}
+	div[data-hs-cos-field*="copyright_tex"] a:hover {
+		color: {{ hover }} !important;
+		text-decoration: none;
+	}
+
+	{% if module.footer_simple.cor_logo_mjv %}
+	  span[data-hs-cos-type="logo"] img{
+				filter: none;
+			}
+	{% endif %}
+	{% if module.footer_basic.cor_logo_mjv  %}
+	  span[data-hs-cos-type="logo"] img{
+				filter: none;
+			}
+	{% endif %}
+	{% if module.footer_full.color_logo_mjv  %}
+	  span[data-hs-cos-type="logo"] img{
+				filter: none;
+			}
+	{% endif %}
+</style>
