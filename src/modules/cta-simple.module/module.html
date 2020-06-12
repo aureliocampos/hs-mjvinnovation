@@ -1,0 +1,15 @@
+{% if module.background.background_type == 'bg_image' %}
+  <section class="cta-simple block-cta banner-background-image" style="background-image:url('{{ module.background.background_image.src }}');">
+		{% elif module.background.background_type == 'bg_color' %}
+	    <section class="cta-simple block-cta banner-background-color" style="background-color:{{ module.background.background_color.color }};">
+{% endif %}
+	<div class="block-cta-container">
+		<div class="block-cta-content">
+			<h2 class="block-cta-title" style="color:{{ module.description.color_text }};">{{ module.description.title_cta }}</h2>
+			<p class="block-cta-text" style="color:{{ module.description.color_text }};">{{ module.description.text_cta }}</p>
+			<div class="block-cta-button">
+				<a href="{{ module.button.link_url }}" class="block-cta-link">{{ module.button.link_cta_text }}</a>
+			</div>
+		</div>
+	</div>
+</section>

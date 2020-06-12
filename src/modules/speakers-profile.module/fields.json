@@ -1,0 +1,144 @@
+[ {
+  "id" : "5823f19b-2401-0769-f4ed-3d30e6b3a8a4",
+  "name" : "lecture_themes",
+  "label" : "Lecture themes",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 2,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : 2
+  },
+  "children" : [ {
+    "id" : "38fcd665-621d-49bd-4976-0e3e95726d9e",
+    "name" : "profile_information",
+    "label" : "Profile Information",
+    "required" : false,
+    "locked" : false,
+    "children" : [ {
+      "id" : "b45f3485-4ee9-26e8-e712-d381fd6d81f0",
+      "name" : "profile_image",
+      "label" : "Profile Image",
+      "required" : false,
+      "locked" : false,
+      "responsive" : true,
+      "resizable" : true,
+      "type" : "image",
+      "default" : {
+        "size_type" : "auto",
+        "src" : "",
+        "alt" : null
+      }
+    }, {
+      "id" : "f32f1e0d-cb9c-b3c2-3bfb-3f61bf932c57",
+      "name" : "profile_name",
+      "label" : "Profile Name",
+      "required" : false,
+      "locked" : false,
+      "validation_regex" : "",
+      "allow_new_line" : false,
+      "show_emoji_picker" : false,
+      "type" : "text",
+      "default" : "Profile Name"
+    }, {
+      "id" : "9379b861-c9b7-c6e6-58d1-5ebd8c0a3e5e",
+      "name" : "profile_office",
+      "label" : "Profile Office",
+      "required" : false,
+      "locked" : false,
+      "validation_regex" : "",
+      "allow_new_line" : false,
+      "show_emoji_picker" : false,
+      "type" : "text",
+      "default" : "Profile Office"
+    }, {
+      "id" : "82a275c6-4eee-7699-74e3-6b69f38418ac",
+      "name" : "profile_bio",
+      "label" : "Profile Bio",
+      "required" : false,
+      "locked" : false,
+      "type" : "richtext",
+      "default" : "Profile Bio"
+    } ],
+    "tab" : "CONTENT",
+    "type" : "group",
+    "default" : {
+      "profile_image" : {
+        "size_type" : "auto",
+        "src" : "",
+        "alt" : null
+      },
+      "profile_name" : "Profile Name"
+    }
+  }, {
+    "id" : "bf124c05-e8d2-d681-0aac-60aec5c5d42a",
+    "name" : "lecture_information",
+    "label" : "Lecture Information",
+    "required" : false,
+    "locked" : false,
+    "children" : [ {
+      "id" : "33169d2d-cfa3-b31f-268d-1c9eba265790",
+      "name" : "date_hour",
+      "label" : "Data e Hora",
+      "required" : false,
+      "locked" : false,
+      "validation_regex" : "",
+      "allow_new_line" : false,
+      "show_emoji_picker" : false,
+      "type" : "text",
+      "default" : "Escreva a Data"
+    }, {
+      "id" : "90f11fbd-b90a-73b9-2305-faa7bd179132",
+      "name" : "lecture_theme",
+      "label" : "Lecture theme",
+      "required" : false,
+      "locked" : false,
+      "validation_regex" : "",
+      "allow_new_line" : false,
+      "show_emoji_picker" : false,
+      "type" : "text",
+      "default" : "Escreva o tema do Webinar"
+    }, {
+      "id" : "a8ecf7fc-ad35-e159-6227-c21e781e2df3",
+      "name" : "lecture_description",
+      "label" : "Lecture Description",
+      "required" : false,
+      "locked" : false,
+      "type" : "richtext",
+      "default" : null
+    }, {
+      "id" : "235e67c7-248b-b7f0-4d81-1fc8a11ac481",
+      "name" : "link_text",
+      "label" : "Link Text",
+      "required" : false,
+      "locked" : false,
+      "validation_regex" : "",
+      "placeholder" : "Escreva um texto para o botão",
+      "allow_new_line" : false,
+      "show_emoji_picker" : false,
+      "type" : "text",
+      "default" : "Quero me inscrever agora"
+    } ],
+    "tab" : "CONTENT",
+    "type" : "group",
+    "default" : {
+      "link_text" : "Quero me inscrever agora"
+    }
+  } ],
+  "tab" : "CONTENT",
+  "type" : "group",
+  "default" : {
+    "profile_information" : {
+      "profile_image" : {
+        "size_type" : "auto",
+        "src" : "",
+        "alt" : null
+      },
+      "profile_name" : "Profile Name"
+    },
+    "lecture_information" : {
+      "link_text" : "Quero me inscrever agora"
+    }
+  }
+} ]
