@@ -1,0 +1,74 @@
+.cta-simple .block-cta {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.cta-simple .block-cta-container {
+  padding: 3em 1em;
+}
+.cta-simple .block-cta-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.cta-simple .block-cta-content .block-cta-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.8em;
+  font-weight: 800;
+  text-align: center;
+}
+.cta-simple .block-cta-content .block-cta-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2em;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 1em;
+}
+.cta-simple .block-cta-content .block-cta-button {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+
+.cta-simple .block-cta-button .block-cta-link {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9em;
+  font-weight: 700;
+  text-transform: uppercase;
+	color: #000000;
+  background: #ffb400;
+  border-radius: 50px;
+  padding: 0.8em 2em;
+  margin-top: 30px;
+	text-decoration: none;
+	outline:none;
+}
+.cta-simple .block-cta-button .block-cta-link::focus {
+  text-decoration: none;
+	outline:none;
+}
+.cta-simple .block-cta-button .block-cta-link::hover {
+  text-decoration: none;
+	outline:none;
+}
+
+
+@media (min-width: 900px) {
+  .cta-simple .block-cta-container {
+    padding: 5em 0;
+  }
+	.cta-simple .block-cta-content .block-cta-title {
+    font-size: 2.8em;
+    line-height: 1.2;
+  }
+	.cta-simple .block-cta-content .block-cta-text {
+    width: 100%;
+    font-size: 1.8em;
+    margin: 1em auto 0 auto;
+  }
+}

@@ -1,0 +1,151 @@
+[ {
+  "id" : "bde67e07-2568-c8a1-ec45-2db1602e88c2",
+  "name" : "background",
+  "label" : "Background",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "c1e6d856-c329-b0ce-13da-ac66216dd60b",
+    "name" : "background_type",
+    "label" : "Background Type",
+    "required" : false,
+    "locked" : false,
+    "display" : "select",
+    "choices" : [ [ "bg_image", "Background Image" ], [ "bg_color", "Background Color" ] ],
+    "type" : "choice",
+    "default" : "bg_image"
+  }, {
+    "id" : "5da10d6c-af64-cf57-d7c1-29c9f641f8a1",
+    "name" : "background_image",
+    "label" : "Background Image",
+    "required" : false,
+    "locked" : false,
+    "visibility" : {
+      "controlling_field" : "c1e6d856-c329-b0ce-13da-ac66216dd60b",
+      "controlling_value_regex" : "bg_image",
+      "operator" : "EQUAL",
+      "access" : null,
+      "hidden_subfields" : null
+    },
+    "responsive" : true,
+    "resizable" : true,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "",
+      "alt" : null
+    }
+  }, {
+    "id" : "c1ef3369-8bb8-bd6d-abdd-c584fcfe4ce3",
+    "name" : "background_color",
+    "label" : "Background Color",
+    "required" : false,
+    "locked" : false,
+    "visibility" : {
+      "controlling_field" : "c1e6d856-c329-b0ce-13da-ac66216dd60b",
+      "controlling_value_regex" : "bg_color",
+      "operator" : "EQUAL",
+      "access" : null,
+      "hidden_subfields" : null
+    },
+    "type" : "color",
+    "default" : {
+      "color" : "#9A00FF",
+      "opacity" : 100
+    }
+  } ],
+  "tab" : "CONTENT",
+  "type" : "group",
+  "default" : {
+    "background_type" : "bg_image",
+    "background_image" : {
+      "size_type" : "auto",
+      "src" : "",
+      "alt" : null
+    },
+    "background_color" : {
+      "color" : "#9A00FF",
+      "opacity" : 100
+    }
+  }
+}, {
+  "id" : "776fdff0-ccb1-a6ad-052b-5e2f8b870b41",
+  "name" : "description",
+  "label" : "Description",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "62d68d66-fdcc-0b68-9fc9-16c78587bea5",
+    "name" : "title_cta",
+    "label" : "Title CTA",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : null
+  }, {
+    "id" : "1f5fdbaa-75a0-64ba-3287-24ceb368d692",
+    "name" : "text_cta",
+    "label" : "Text CTA",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : null
+  }, {
+    "id" : "17abab5d-70b3-06b9-e999-e67bce810000",
+    "name" : "color_text",
+    "label" : "Color Text",
+    "required" : false,
+    "locked" : false,
+    "display" : "select",
+    "choices" : [ [ "#000000", "Black" ], [ "#ffffff", "White" ] ],
+    "type" : "choice",
+    "default" : "#000000"
+  } ],
+  "tab" : "CONTENT",
+  "type" : "group",
+  "default" : {
+    "color_text" : "#000000"
+  }
+}, {
+  "id" : "e17c683e-ad8f-1f58-b6d1-a44a0394461b",
+  "name" : "button",
+  "label" : "Button",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "020c7249-5988-539a-60f5-8156d510b5be",
+    "name" : "link_cta_text",
+    "label" : "Link CTA Text",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : null
+  }, {
+    "id" : "7cd95340-b6c5-0622-be4f-9107107f01b0",
+    "name" : "link_url",
+    "label" : "Link URL",
+    "help_text" : "Cadastrar uma URL e opcional, pois o link vem prefinido com o valor \"#header\", para que seja feito scroll-smooth.",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "#header ou  URL",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "#header"
+  } ],
+  "tab" : "CONTENT",
+  "type" : "group",
+  "default" : {
+    "link_url" : "#header"
+  }
+} ]

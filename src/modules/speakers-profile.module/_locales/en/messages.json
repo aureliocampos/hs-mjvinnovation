@@ -1,0 +1,232 @@
+{
+  "lecture_themes.default.profile_information.profile_image.alt" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "lecture_themes.default.profile_information.profile_image.size_type" : {
+    "message" : "auto",
+    "description" : null,
+    "placeholders" : null
+  },
+  "lecture_themes.default.profile_information.profile_image.src" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "lecture_themes.default.profile_information.profile_name" : {
+    "message" : "Profile Name",
+    "description" : null,
+    "placeholders" : null
+  },
+  "lecture_themes.help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "lecture_themes.label" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "lecture_themes.lecture_information.date_hour.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "lecture_themes.lecture_information.date_hour.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "lecture_themes.lecture_information.date_hour.label" : {
+    "message" : "Texto",
+    "description" : null,
+    "placeholders" : null
+  },
+  "lecture_themes.lecture_information.date_hour.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "lecture_themes.lecture_information.date_hour.validation_regex" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "lecture_themes.lecture_information.help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "lecture_themes.lecture_information.label" : {
+    "message" : "Lecture Information",
+    "description" : "",
+    "placeholders" : null
+  },
+  "lecture_themes.lecture_information.lecture_description.default" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "lecture_themes.lecture_information.lecture_description.help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "lecture_themes.lecture_information.lecture_description.label" : {
+    "message" : "Lecture Description",
+    "description" : "",
+    "placeholders" : null
+  },
+  "lecture_themes.lecture_information.lecture_theme.default" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "lecture_themes.lecture_information.lecture_theme.help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "lecture_themes.lecture_information.lecture_theme.label" : {
+    "message" : "Lecture theme",
+    "description" : "",
+    "placeholders" : null
+  },
+  "lecture_themes.lecture_information.lecture_theme.placeholder" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "lecture_themes.lecture_information.lecture_theme.validation_regex" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "lecture_themes.lecture_information.link_text.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "lecture_themes.lecture_information.link_text.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "lecture_themes.lecture_information.link_text.label" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "lecture_themes.lecture_information.link_text.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "lecture_themes.lecture_information.link_text.validation_regex" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "lecture_themes.lecture_information.name" : {
+    "message" : "Speakers Profile",
+    "description" : "",
+    "placeholders" : null
+  },
+  "lecture_themes.profile_information.help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "lecture_themes.profile_information.label" : {
+    "message" : "Profile Information",
+    "description" : "",
+    "placeholders" : null
+  },
+  "lecture_themes.profile_information.profile_bio.default" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "lecture_themes.profile_information.profile_bio.help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "lecture_themes.profile_information.profile_bio.label" : {
+    "message" : "Profile Bio",
+    "description" : "",
+    "placeholders" : null
+  },
+  "lecture_themes.profile_information.profile_image.default.alt" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "lecture_themes.profile_information.profile_image.help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "lecture_themes.profile_information.profile_image.label" : {
+    "message" : "Profile Image",
+    "description" : "",
+    "placeholders" : null
+  },
+  "lecture_themes.profile_information.profile_name.default" : {
+    "message" : "Profile Name",
+    "description" : "",
+    "placeholders" : null
+  },
+  "lecture_themes.profile_information.profile_name.help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "lecture_themes.profile_information.profile_name.label" : {
+    "message" : "Profile Name",
+    "description" : "",
+    "placeholders" : null
+  },
+  "lecture_themes.profile_information.profile_name.placeholder" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "lecture_themes.profile_information.profile_name.validation_regex" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "lecture_themes.profile_information.profile_office.default" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "lecture_themes.profile_information.profile_office.help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "lecture_themes.profile_information.profile_office.label" : {
+    "message" : "Profile Office",
+    "description" : "",
+    "placeholders" : null
+  },
+  "lecture_themes.profile_information.profile_office.placeholder" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "lecture_themes.profile_information.profile_office.validation_regex" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Speakers Profile",
+    "description" : "",
+    "placeholders" : null
+  }
+}

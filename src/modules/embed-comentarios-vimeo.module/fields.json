@@ -1,0 +1,13 @@
+[ {
+  "id" : "b59e1c7b-4366-534f-7cde-8a195c48e504",
+  "name" : "text_field",
+  "label" : "Embed Iframe",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "placeholder" : "https://vimeo.com/live-chat/428587086/2d37210ad6",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : ""
+} ]
