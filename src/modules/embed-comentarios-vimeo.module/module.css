@@ -1,0 +1,13 @@
+.vimeo-comments {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: auto;
+}
+.video-comments iframe {
+  width: 100% !important;
+}
+.video-comments html {
+	overflow: hidden !important;
+}
