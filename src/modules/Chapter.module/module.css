@@ -22,7 +22,7 @@
 	padding: 0.3em 1em;
 }
 .section-chapters-items .chapters-item .chapters-description{
-	padding: 0.7em 1em;
+	padding: 1em;
 	max-height: 250px;
 	overflow: hidden;
 }
@@ -47,7 +47,7 @@
 	}
 	.section-chapters-items .chapters-item {
 		width: 30%;
-		margin: 1em 1em;
+		margin: 1em;
 	}
 }
 
