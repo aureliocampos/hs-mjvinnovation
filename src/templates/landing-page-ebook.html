@@ -77,12 +77,13 @@
         {% end_dnd_row %}
         {% dnd_row 
           padding={
-            'bottom': 30
+            'bottom': 30,
+            'left': 30
           }
           %}
           {% dnd_module path='@hubspot/rich_text' %}
             {% module_attribute 'html' %}
-              <h1><span style="color: #ff2ca7;"><strong>Robotic Proces Automation</strong></span></h1>
+              <h1><span style="color: #ff2ca7;font-weight: 800;">Robotic Proces Automation</span></h1>
               <h2>Como a automação robotizada de processos eleva a competitividade empresarial</h2>
               <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             {% end_module_attribute %}
@@ -176,7 +177,7 @@
           'top': 90,
           'bottom':0
         },
-        max_width=950
+        max_width=1050
         %}
         {% dnd_module path='@hubspot/rich_text'
           horizontal_alignment="CENTER",

@@ -28,4 +28,12 @@
   .dnd-section .dnd-column {
     padding: 0;
   }
+  .body-container--landing-page-ebook .dnd-section .dnd-column {
+    padding: 0 0 0 20px;
+  }
+  
+}
+
+.body-container--landing-page-ebook .row-fluid .span3 {
+  padding: 1.1em 1.25em;
 }

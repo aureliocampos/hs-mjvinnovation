@@ -11,10 +11,11 @@
 	width: 70px !important;
 	filter: brightness(99);
 }
-#hs_cos_wrapper_footer-default div[data-hs-cos-field*="copyright_text"] div, p, a, span{
+#hs_cos_wrapper_footer-default div {
 	font-size:0.9em;
 	/* text-align: center !important; */
 }
+
 @media (min-width:900px){
 	.container-flex-wrapper {
 		display:flex;
@@ -26,7 +27,4 @@
 	.container-flex-wrapper .column-flex-wrapper:last-of-type {
 		margin-top: 0;
 	}
-	/* #hs_cos_wrapper_footer-default div[data-hs-cos-field*="copyright_text"] div, p, a, span{
-		text-align: right !important;
-	} */
 }
