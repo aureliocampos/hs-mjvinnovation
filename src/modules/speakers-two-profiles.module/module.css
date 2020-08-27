@@ -1,0 +1,171 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* === Mobile First === */
+.speakers-profile .information-card-items .information-card-item {
+  padding: 3.5em 0;
+}
+.speakers-profile .information-card-items .information-card-item:nth-child(2n) {
+  background-color: #f7f7f7;
+}
+.speakers-profile .information-card-items .information-card-item:nth-child(2n) .information-card-time {
+  color: #fe6667;
+}
+.speakers-profile .information-card-items .information-card-time {
+  color: #0000ff;
+}
+.speakers-profile .information-card-item > .flex-column {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.speakers-profile .flex-column > .information-card-column {
+  padding: 0 1em;
+  margin-top: 2em;
+}
+.speakers-profile .information-card-column .information-card-avatar {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+  margin: 0;
+}
+.speakers-profile .information-card-column .information-card-avatar > img {
+  height: 200px;
+  width: 200px;
+}
+.speakers-profile .information-card-column .information-card-name {
+	font-family: 'Open sans', sans-serif;
+	font-size: 1.6em;
+	font-weight: 800;
+  margin-top: 1.3em;
+}
+.speakers-profile .information-card-column .information-card-office {
+	font-family: 'Open sans', sans-serif;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin-top: 0.2em;
+}
+.speakers-profile .information-card-column .information-card-text {
+	font-family: 'Open sans', sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  margin-top: 1em;
+}
+.speakers-profile .information-card-column .information-card-title {
+	font-family: "Open Sans",sans-serif;
+	font-weight: 800;
+	font-size: 1.7em;
+	margin-top: 0.5em;
+}
+.speakers-profile .information-card-column .information-card-time {
+	font-family: "Open Sans",sans-serif;
+	font-weight: 800;
+	font-size: 1.3em;
+}
+.speakers-profile .block-cta-button {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+
+.speakers-profile .block-cta-button .block-cta-link {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9em;
+  font-weight: 700;
+  text-transform: uppercase;
+	color: #000000;
+  background: #ffb400;
+  border-radius: 50px;
+  padding: 0.8em 2em;
+  margin-top: 30px;
+	text-decoration: none;
+	outline:none;
+}
+.speakers-profile .block-cta-button .block-cta-link::focus {
+  text-decoration: none;
+	outline:none;
+}
+.speakers-profile .block-cta-button .block-cta-link::hover {
+  text-decoration: none;
+	outline:none;
+}
+.information-card-text {
+	overflow:hidden;
+}
+@media (min-width: 900px) {
+  .speakers-profile .information-card-items .information-card-item {
+		padding: 4em 0;
+	}
+	.speakers-profile .information-card-item > .flex-column {
+		display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+	}
+	.speakers-profile .flex-column > .information-card-column {
+		width: 600px;
+    margin-top: 0;
+	}
+	.speakers-profile .information-card-column:first-of-type {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+    justify-content: center;
+    -webkit-justify-content: center;
+		width: 500px;
+  }
+	.speakers-profile .information-card-column .information-card-name {
+		 margin-top: 0;
+	}
+	.speakers-profile .information-card-column .information-card-office {
+		font-size: 1.1em;
+    margin-top: 0;
+	}
+	.speakers-profile .information-card-column .information-card-title {
+		font-size: 1.8em;
+	}
+	.speakers-profile .information-card-column .information-card-text {
+    font-size: 0.9em;
+    line-height: 1.4;
+	}
+	.speakers-profile .information-card-column .information-card-text.big-text {
+    font-size: 1em;
+    margin-top: 0.8em;
+  }
+	.speakers-profile .block-separator {
+    margin-left: 2em;
+  }
+	.speakers-profile .block-cta-button {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: flex-start;
+  -webkit-justify-content: flex-start;
+  }
+}
