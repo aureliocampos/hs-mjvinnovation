@@ -1,0 +1,46 @@
+<section class="speakers-profile information-cards">
+	<ul class="information-card-items">
+		
+		{% for item in module.lecture_themes %}	
+		
+			<li class="information-card-item">
+				<div class="flex-column">
+					<div class="information-card-column">			
+						{% if item.profile_information.profile_image.src %}
+							<figure class="information-card-avatar">
+								<img src="{{ item.profile_information.profile_image.src }}" alt="{{ item.profile_information.profile_image.alt }}" {{ sizeAttrs }} class="image-responsive">
+							</figure>
+					{% endif %}
+
+						<div class="block-separator">			
+							<h3 class="information-card-name">{{ item.profile_information.profile_name }}</h3>
+							<h4 class="information-card-office">{{ item.profile_information.profile_office }}</h4>
+							<div class="information-card-text">{{ item.profile_information.profile_bio }}</div>
+						</div>
+							{% if item.profile_information.profile_image.src %}
+							<figure class="information-card-avatar">
+								<img src="{{ item.profile_information.profile_image.src }}" alt="{{ item.profile_information.profile_image.alt }}" {{ sizeAttrs }} class="image-responsive">
+							</figure>
+					{% endif %}
+
+						<div class="block-separator">			
+							<h3 class="information-card-name">{{ item.profile_information.profile_name }}</h3>
+							<h4 class="information-card-office">{{ item.profile_information.profile_office }}</h4>
+							<div class="information-card-text">{{ item.profile_information.profile_bio }}</div>
+						</div>
+					</div>
+					<div class="information-card-column">
+						<time class="information-card-time">{{ item.lecture_information.date_hour }}</time>
+						<h2 class="information-card-title">{{ item.lecture_information.lecture_theme }}</h2>
+						<div class="information-card-text big-text">{{ item.lecture_information.lecture_description }}</div>
+						<div class="block-cta-button">
+							<a href="#header" class="block-cta-link">{{ item.lecture_information.link_text }}</a>
+						</div>
+					</div>
+				</div>
+			</li>
+
+	{% endfor %}
+
+	</ul>
+</section>
